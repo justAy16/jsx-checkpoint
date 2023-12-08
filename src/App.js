@@ -22,7 +22,7 @@ function App() {
       </Card.Body>
     </Card>
     {/* displayed the message that greeted firstName and brought Img if provited */}
-    <h2 style={{textAlign:'center', marginTop:'1rem'}}> Hi {Sleek.firstName?<span><span>{Sleek.firstName}</span><img style={{display:'block',  margin:'auto', marginTop:'0.7rem'}} src={Sleek.image} alt="Sleek"/></span>: "there!!"}</h2>
+    <h2 style={{textAlign:'center', marginTop:'1rem'}}> Hi {Sleek.firstName?<span><span>{Sleek.firstName}, I'm Sleek</span><img style={{display:'block',  margin:'auto', marginTop:'0.7rem'}} src={Sleek.image} alt="Sleek"/></span>: "there!! I'm Sleek"}</h2>
 
     </div>
   );
